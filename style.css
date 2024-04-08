@@ -24,11 +24,14 @@ button {
   text-align: center;
   background-color: lightgray;
   color: black;
+  padding-top: 50px;
+  padding-bottom: 50px;
   font-weight: 150;
 }
 
 a {
   text-decoration: none;
+  font-family: Tahoma, serif;
   color: black;
 }
 
