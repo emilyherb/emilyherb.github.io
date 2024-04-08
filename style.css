@@ -34,6 +34,8 @@ a {
   text-decoration: none;
   font-family: Tahoma, serif;
   color: black;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 .portrait {
