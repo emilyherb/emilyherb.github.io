@@ -24,6 +24,12 @@ button {
   text-align: center;
   background-color: gray;
   color: black;
+  font-weight: 150;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 
 /*# sourceMappingURL=style.css.map */
