@@ -9,6 +9,7 @@ h4 {
   font-family: Courier, serif;
   font-weight: 300;
 }
+
 button {
   background-color: pink;
   color: white;
@@ -16,7 +17,13 @@ button {
   border: none;
   padding: 12px;
   margin: 5px;
-  border-radius:4px;
+  border-radius: 4px;
 }
+
+.heading {
+  text-align: center;
+  background-color: gray;
+  color: black;
+}
+
 /*# sourceMappingURL=style.css.map */
- 
