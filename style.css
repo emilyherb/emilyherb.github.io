@@ -40,7 +40,7 @@ a {
 .portrait {
   width: 250px;
   height: 250px;
-  border-radius: 50px;
+  border-radius: 50%;
   text-align: center;
 }
 
