@@ -23,7 +23,7 @@ button {
 }
 
 .topnav {
-  background-color: hotpink;
+  background-color: pink;
   color: black;
   padding-top: 25px;
   padding-bottom: 25px;
@@ -42,7 +42,6 @@ a {
 
 .heading {
   background-image: url("https://i.pinimg.com/originals/43/3e/f9/433ef90a05c6af38aa99845def089e19.jpg");
-  margin: 0;
   padding-bottom: 25px;
   padding-top: 25px;
 }
