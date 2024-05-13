@@ -27,6 +27,7 @@ button {
   padding-top: 10px;
   padding-bottom: 10px;
   font-weight: 150;
+  margin: 0;
 }
 
 a {
@@ -40,12 +41,12 @@ a {
 .portrait {
   width: 100px;
   height: 150px;
-  border-radius: 50%;
   text-align: center;
 }
 
 .heading {
   background-image: url("https://i.pinimg.com/originals/43/3e/f9/433ef90a05c6af38aa99845def089e19.jpg");
+  margin: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
