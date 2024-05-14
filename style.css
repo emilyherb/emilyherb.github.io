@@ -17,7 +17,7 @@ button {
   font-family: serif;
   font-size: 25px;
   border: none;
-  padding: 12px;
+  padding-left: 15px;
   margin: 5px;
   border-radius: 4px;
   animation: ease-in;
@@ -40,6 +40,10 @@ a {
   color: black;
   margin-left: 25px;
   margin-right: 25px;
+}
+
+.portrait {
+  padding-left: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
