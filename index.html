@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emily Herbert</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="container">
+        <h2>Welcome to my portfolio!</h2>
+        <p>Web designer.</p>
+        <img src="meme.JPG" alt="me" class="JPG">
+    </section>
+
+    <section id="portfolio" class="container">
+        <h2>My Projects</h2>
+        <div class="portfolio-item">
+            <img src="project1-thumb.jpg" alt="Project 1">
+            <p>Project 1 Description</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="project2-thumb.jpg" alt="Project 2">
+            <p>Project 2 Description</p>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contact Me</h2>
+        <form action="mailto:example@example.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+            <input type="submit" value="Send">
+            <input type="reset" value="Reset">
+        </form>
+    </section>
+
+    <footer class="container">
+        <p>&copy; 2024 My Portfolio. <a href="guestbook.html">Sign my guestbook!</a></p>
+        <p>Hit Counter: <span id="hit-counter">1234</span></p>
+    </footer>
+</body>
+</html>
