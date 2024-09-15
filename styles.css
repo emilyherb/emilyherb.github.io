@@ -113,3 +113,56 @@ footer {
     text-align: center;
     border-top: 5px solid #000;
 }
+/*for window*/
+.window {
+    width: 400px; /* Width of the window */
+    border: 1px solid #ccc; /* Window border */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for 3D effect */
+    background-color: #fff; /* Background color */
+    overflow: hidden; /* Hide overflow */
+    position: relative; /* For positioning child elements */
+}
+
+/* Styling for the window header */
+.window-header {
+    display: flex;
+    align-items: center;
+    background-color: #007bff; /* Header background color */
+    color: #fff; /* Text color */
+    padding: 10px; /* Padding around the header */
+    font-weight: bold; /* Make title text bold */
+    position: relative; /* For positioning controls */
+}
+
+/* Styling for window controls (minimize, maximize, close) */
+.window-controls {
+    display: flex;
+    gap: 5px; /* Space between buttons */
+    position: absolute;
+    right: 10px; /* Align to the right side */
+    top: 10px; /* Align to the top */
+}
+
+.control {
+    width: 12px; /* Size of control buttons */
+    height: 12px;
+    border-radius: 50%; /* Circular buttons */
+    background-color: #fff; /* Button color */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.minimize { background-color: #f1c40f; } /* Yellow for minimize */
+.maximize { background-color: #2ecc71; } /* Green for maximize */
+.close { background-color: #e74c3c; } /* Red for close */
+
+/* Styling for window title */
+.window-title {
+    flex: 1;
+    text-align: center;
+}
+
+/* Styling for the content area */
+.window-content {
+    padding: 15px; /* Padding inside the content area */
+}
