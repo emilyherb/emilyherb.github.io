@@ -121,7 +121,9 @@ footer {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for 3D effect */
     background-color: #fff; /* Background color */
     overflow: hidden; /* Hide overflow */
-    position: relative; /* For positioning child elements */
+    position: absolute; /* Allows window to be moved around */
+    top: 50px; /* Initial top position */
+    left: 50px; /* Initial left position */
 }
 
 /* Styling for the window header */
@@ -133,6 +135,7 @@ footer {
     padding: 10px; /* Padding around the header */
     font-weight: bold; /* Make title text bold */
     position: relative; /* For positioning controls */
+    cursor: move; /* Show move cursor when hovering over the header */
 }
 
 /* Styling for window controls (minimize, maximize, close) */
