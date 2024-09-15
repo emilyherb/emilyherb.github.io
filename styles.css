@@ -12,7 +12,6 @@ body {
 }
 
 header {
-    background-color: #ff69b4;
     color: #fff;
     padding: 10px 0;
     text-align: center;
@@ -39,6 +38,8 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
+    background-color: #ff0090;
+    border-radius: 12px; 
 }
 
 section {
