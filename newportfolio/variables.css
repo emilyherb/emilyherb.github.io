@@ -1,0 +1,61 @@
+/* variables.css */
+
+/* ---------- Primitive tokens ---------- */
+:root {
+  /* neutrals */
+  --neutral-0:  #ffffff;
+  --neutral-10: #faf7f3;
+  --neutral-20: #e6e1dc;
+  --neutral-50: #2b2b2b;
+
+  /* brand */
+  --accent-50:  #c76b8a;
+
+  /* typography */
+  --font-display: "Playfair Display", serif;
+  --font-body: "Inter", sans-serif;
+
+  /* spacing (use rem so it scales nicely) */
+  --space-xs: 0.5rem;   /* 8px  */
+  --space-s:  1rem;     /* 16px */
+  --space-m:  1.5rem;   /* 24px */
+  --space-l:  2rem;     /* 32px */
+  --space-xl: 2.5rem;   /* 40px */
+  --space-xxl: 3.5rem;  /* 56px */
+  --space-xxxl: 4.5rem; /* 72px */
+
+  /* radius */
+  --radius-s:  6px;
+  --radius-m:  10px;
+  --radius-l:  18px;
+
+  /* shadows */
+  --shadow-1: 0 10px 25px rgba(0,0,0,0.05);
+  --shadow-2: 0 20px 40px rgba(0,0,0,0.08);
+  --shadow-3: 0 30px 60px rgba(0,0,0,0.12);
+
+  /* colors for light theme (semantic) */
+  --color-bg: var(--neutral-10);
+  --color-surface: var(--neutral-0);
+  --color-text: var(--neutral-50);
+  --color-border: var(--neutral-20);
+  --color-accent: var(--accent-50);
+
+  /* “glass” surface */
+  --surface-glass: rgba(255,255,255,0.8);
+
+  /* navbar background */
+  --nav-bg: rgba(250, 247, 243, 0.95);
+}
+
+/* ---------- Dark mode (only applies when body has .dark) ---------- */
+body.dark {
+  --color-bg: var(--neutral-50);
+  --color-surface: var(--neutral-0);
+  --color-text: var(--neutral-10);
+  --color-border: var(--neutral-20);
+  --color-accent: var(--accent-50);
+
+  --nav-bg: rgba(43, 43, 43, 0.9);
+  --surface-glass: rgba(255,255,255,0.08);
+}
