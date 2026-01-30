@@ -22,7 +22,7 @@ body {
 
 /*---------- Dark and Light Modes ----------*/
 
-body.dark {
+[data-theme="dark"] {
   --color-bg: var(--neutral-50);
   --color-surface: rgba(255,255,255,0.08);
   --color-text: var(--neutral-10);
@@ -32,7 +32,7 @@ body.dark {
   --nav-bg: rgba(43, 43, 43, 0.9);
 }
 
-body.light {
+[data-theme="light"] {
   --color-bg: var(--neutral-10);
   --color-surface: rgba(255,255,255,0.08);
   --color-text: var(--neutral-50);
