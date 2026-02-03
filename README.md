@@ -1,6 +1,6 @@
 This project uses a design token system defined in variables.css to keep styles consistent and make theming easier.
 
-##Token Layers##
+## Token Layers ##
 
 Primitive tokens store raw values and are not used directly in components:
 
@@ -22,7 +22,7 @@ Semantic tokens describe how a value is used in the UI:
 
 Components reference semantic tokens so they automatically adapt to theme changes.
 
-##Light & Dark Themes##
+## Light & Dark Themes ##
 
 Themes are controlled using a data-theme attribute on the <html> element:
 
@@ -58,7 +58,7 @@ Benefits
 
 - Clear separation of design intent and implementation
 
-##♿ Reduced Motion Support##
+## ♿ Reduced Motion Support ##
 
 The site respects user motion preferences using:
 
