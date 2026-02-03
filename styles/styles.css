@@ -329,4 +329,34 @@ nav a:hover {
   nav a {
     margin-left: 1.2rem;
   }
+
+  /* ---------- Reduced Motion ---------- */
+@media (prefers-reduced-motion: reduce) {
+  /* Disable smooth scrolling (decorative) */
+  html {
+    scroll-behavior: auto;
+  }
+
+  /* Reduce decorative transitions site-wide */
+  .project-card,
+  .project-link,
+  .button,
+  .theme-toggle {
+    transition: none !important;
+  }
+
+  /* Remove card decorative hover lift */
+  .project-card:hover,
+  .project-link:hover .project-card {
+    transform: none !important;
+  }
+
+  /* Keep focus styles functional (don’t remove outlines) */
+  :focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 3px;
+  }
+}
+
+
 }
